@@ -1,1 +1,1 @@
-# Hierarchical-Transformer-Based-End-to-End-Autonomous-Driving-with-CARLA
+# Hierarchical Transformer Based End-to-End Autonomous Driving with CARLA
