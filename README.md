@@ -27,9 +27,9 @@ The framework integrates multimodal sensory inputs with a hierarchical transform
     --epochs 30
 
 ## 📜 Citation
-```bash
-@article{cho2025mc2ltransformer,
-  title   = {Multimodal Coarse-to-Local Transformer for Reliable End-to-End Autonomous Driving},
-  author  = {Cho, Yeryeong and Kim, Joongheon},
-  year    = {2025}
-}
+  ```bash
+  @article{cho2025mc2ltransformer,
+    title   = {Multimodal Coarse-to-Local Transformer for Reliable End-to-End Autonomous Driving},
+    author  = {Cho, Yeryeong and Kim, Joongheon},
+    year    = {2025}
+  }
