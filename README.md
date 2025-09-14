@@ -1,1 +1,1 @@
-# Hierarchical Transformer Based End-to-End Autonomous Driving with CARLA
+# Multimodal Coarse-to-Local Transformer for Reliable End-to-End Autonomous Driving
