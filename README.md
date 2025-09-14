@@ -1,5 +1,6 @@
 # Multimodal Coarse-to-Local Transformer for Reliable End-to-End Autonomous Driving
-
+This repository contains the implementation of the Multimodal Coarse-to-Local Transformer (MC2L-Transformer) designed for reliable end-to-end autonomous driving. 
+The framework integrates multimodal sensory inputs with a hierarchical transformer (global → local) for uncertainty-aware trajectory prediction.
 
 1. Clone this repository:
    ```bash
@@ -12,6 +13,23 @@
    conda activate e2e_ht
 
 ## 📖 Notes
-  - This environment is based on Python 3.7.12.
-  - Some packages may require additional system dependencies.
-  - Please ensure you have proper GPU drivers if you plan to use PyTorch with CUDA.
+  - Environment is tested with Python 3.7.12.
+  - GPU acceleration (CUDA) is strongly recommended for training with LiDAR + image fusion.
+  - Some packages may require system-level dependencies (ex. CARLA 9.10.1, etc.).
+  - Ensure NVIDIA drivers and CUDA toolkit are properly installed before training.
+
+## 🚀 Training & Evaluation
+  '''bash
+  python train.py \
+    --root /path/to/dataset \
+    --logdir ./logs/exp1 \
+    --batch_size 8 \
+    --epochs 30
+
+## 📜 Citation
+'''bash
+@article{cho2025mc2ltransformer,
+  title   = {Multimodal Coarse-to-Local Transformer for Reliable End-to-End Autonomous Driving},
+  author  = {Cho, Yeryeong and Kim, Joongheon},
+  year    = {2025}
+}
