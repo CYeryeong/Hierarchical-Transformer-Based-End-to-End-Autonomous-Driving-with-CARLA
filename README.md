@@ -10,3 +10,8 @@
    ```bash
    conda env create -f environment.yml
    conda activate e2e_ht
+
+## 📖 Notes
+  - This environment is based on Python 3.7.12.
+  - Some packages may require additional system dependencies.
+  - Please ensure you have proper GPU drivers if you plan to use PyTorch with CUDA.
