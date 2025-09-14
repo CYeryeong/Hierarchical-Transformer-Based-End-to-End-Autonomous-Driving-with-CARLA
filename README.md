@@ -19,7 +19,7 @@ The framework integrates multimodal sensory inputs with a hierarchical transform
   - Ensure NVIDIA drivers and CUDA toolkit are properly installed before training.
 
 ## 🚀 Training & Evaluation
-  '''bash
+  ```bash
   python train.py \
     --root /path/to/dataset \
     --logdir ./logs/exp1 \
@@ -27,7 +27,7 @@ The framework integrates multimodal sensory inputs with a hierarchical transform
     --epochs 30
 
 ## 📜 Citation
-'''bash
+```bash
 @article{cho2025mc2ltransformer,
   title   = {Multimodal Coarse-to-Local Transformer for Reliable End-to-End Autonomous Driving},
   author  = {Cho, Yeryeong and Kim, Joongheon},
