@@ -25,6 +25,7 @@ The framework integrates multimodal sensory inputs with a hierarchical transform
     --logdir ./logs/exp1 \
     --batch_size 8 \
     --epochs 30
+  ```
 
 ## 📜 Citation
   ```bash
@@ -33,3 +34,4 @@ The framework integrates multimodal sensory inputs with a hierarchical transform
     author  = {Cho, Yeryeong and Kim, Joongheon},
     year    = {2025}
   }
+  ```
